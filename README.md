@@ -1,0 +1,2 @@
+# cryptocompare
+CryptoCompare plugin
