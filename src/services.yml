@@ -1,0 +1,5 @@
+services:
+    cryptocompare_bot_ticker:
+        class: bot/Ticker
+        tags:
+            - { name: kryptopus.bot, alias: cryptocompare_ticker }
