@@ -3,3 +3,8 @@ services:
         class: bot/Ticker
         tags:
             - { name: kryptopus.bot, alias: cryptocompare_ticker }
+
+    cryptocompare_chart_collector:
+        class: chart/Collector
+        tags:
+            - { name: kryptopus.chart.collector, source: cryptocompare }
